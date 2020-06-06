@@ -9,7 +9,7 @@
     height: 100vh;
     background-image: linear-gradient(rgba(11, 13, 14, 0.918), rgba(2, 20, 29, 0.637)), url('/images/fac510db7a07e258fa398b1d166b0599.png');
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     position: relative;
 }
 
@@ -17,7 +17,7 @@
     width: 100%;
     height: auto;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -52,7 +52,7 @@
     text-align: center;
     position: relative;
 }
-h3{
+h4{
     animation: textanimation 1s ease-in-out;
     overflow: hidden;
     white-space: nowrap;
